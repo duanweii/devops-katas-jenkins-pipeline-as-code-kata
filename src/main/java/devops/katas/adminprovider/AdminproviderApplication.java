@@ -15,7 +15,6 @@ public class AdminproviderApplication {
     public static void main(String[] args) {
         SpringApplication.run(AdminproviderApplication.class, args);
     }
-
 }
 
 @Configuration
