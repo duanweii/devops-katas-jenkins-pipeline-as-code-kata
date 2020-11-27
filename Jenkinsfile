@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'hello from scm'
                 // Get some code from a GitHub repository
-                git 'https://gitee.com/wubin28/devops-katas-jenkins-pipeline-as-code-kata.git'
+                git 'https://github.com/duanweii/devops-katas-jenkins-pipeline-as-code-kata.git'
 
                 // Run Maven on a Unix agent.
                 sh "./mvnw clean package"
