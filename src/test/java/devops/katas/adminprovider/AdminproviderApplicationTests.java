@@ -16,5 +16,4 @@ class AdminproviderApplicationTests {
 		BDDAssertions.then(admin.getFirstName()).isEqualTo("firstName [4]");
 		BDDAssertions.then(admin.getLastName()).isEqualTo("lastName [4]");
 	}
-
 }
