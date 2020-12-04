@@ -13,7 +13,7 @@ class AdminproviderApplicationTests {
 
 		Admin admin = adminService.retrieveAdmin(4);
 
-		BDDAssertions.then(admin.getFirstName()).isEqualTo("firstName [4]");
+		BDDAssertions.then(admin.getFirstName()).isEqualTo("firstName [40]");
 		BDDAssertions.then(admin.getLastName()).isEqualTo("lastName [4]");
 	}
 }
